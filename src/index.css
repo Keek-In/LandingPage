@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+.footer-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-keek-text {
+  color: #040815;
+  text-align: justify;
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80%; /* 19.2px */
+  letter-spacing: -0.72px;
+}
+
+.footer-subtext {
+  width: 206px;
+  color: var(--Secondary-400, #596780);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.36px;
+}
+
+/* Gap between lists updated to 186px */
+.footer-list-wrapper {
+  margin-left: 186px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-heading {
+  color: var(--Secondary-500, #1A202C);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+  margin-bottom: 32px;
+}
+
+.footer-list-item {
+  color: var(--Secondary-400, #596780);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  margin-bottom: 24px;
+}
+
+.footer-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Second List for Legal */
+.footer-legal-list-wrapper {
+  margin-left: 186px;
+}
+
+.footer-legal-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-legal-list-heading {
+  color: var(--Secondary-500, #1A202C);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+  margin-bottom: 32px;
+}
+
+.footer-legal-list-item {
+  color: var(--Secondary-500, #1A202C);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.36px;
+  margin-bottom: 24px;
+}
+
+.footer-legal-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Third List for Social/Follow Us */
+.footer-social-list-wrapper {
+  margin-left: 186px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-list-heading {
+  color: var(--Secondary-500, #1A202C);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+  margin-bottom: 32px;
+}
+
+.footer-social-list-item {
+  color: var(--Secondary-400, #596780);
+  text-align: justify;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  margin-bottom: 24px;
+}
+
+.footer-social-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Copyright Text */
+.footer-copy {
+  width: 1200px;
+  color: var(--Secondary-400, #596780);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
