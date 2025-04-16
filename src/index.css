@@ -320,3 +320,33 @@ button span {
   font-weight: 500;
   line-height: 20.071px; /* 143.365% */
 }
+
+.how-it-works-title {
+  color: #1A71F6;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}
+
+.join-keek-title {
+  color: var(--Primary-0, #FFF);
+  font-family: "Plus Jakarta Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+  letter-spacing: -1.2px;
+}
+
+.ready-to-launch {
+  color: var(--Secondary-300, #90A3BF);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}

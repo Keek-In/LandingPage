@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout"; // Import Layout component
 import CallToAction from "./components/CallToAction"; // Import CallToAction component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import routing
+import HowItWorks from "./components/HowItWorks";
 
 // Import the pages for navigation
 import PrivacyPolicy from "./pages/PrivacyPolicy";// Assuming you want to navigate to Privacy Policy
@@ -30,7 +31,7 @@ function App() {
             
             {/* Add more routes as necessary */}
           </Routes>
-
+          <HowItWorks />
           <CallToAction />
           <Footer />
         </Layout>
