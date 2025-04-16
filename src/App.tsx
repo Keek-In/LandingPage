@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Im
 import PrivacyPolicy from "./pages/PrivacyPolicy";// Assuming you want to navigate to Privacy Policy
 import TermsandConditions from "./pages/TermsandConditions";
 import GrievanceRedressalPolicy from "./pages/GrievanceRedressalPolicy";
+import GetDemo from "./pages/GetDemo";
 
 // Add other pages if needed like Pricing, About, etc.
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsandConditions />} />
             <Route path="/grievance" element={<GrievanceRedressalPolicy />} />
+            <Route path="/get-demo" element={<GetDemo />} />
             
             {/* Add more routes as necessary */}
           </Routes>

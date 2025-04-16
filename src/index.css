@@ -242,5 +242,81 @@
   right: 350px;
   bottom: -15px;
   border-radius: 7.79px;
-  z-index: 0;
+}
+
+.growth-text {
+  color: #101828;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50.178px; /* 167.259% */
+  letter-spacing: -0.6px;
+}
+
+.contact-text {
+  color: #101828;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-top: 5.02px;
+}
+
+
+.label-text {
+  color: #101828;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.726px; /* 139.382% */
+}
+
+.input-field {
+  width: 575.37px;
+  height: 41.07px;
+  border-radius: 6.69px;
+  padding: 10px;
+  border: 1px solid #d0d5dd;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  color: #101828;
+}
+
+.question-text {
+  color: #344054;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.726px; /* 139.382% */
+}
+
+.checkbox-label {
+  color: #344054;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.726px; /* 139.382% */
+}
+
+.question-text {
+  color: #101828;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.726px; /* 139.382% */
+}
+
+button span {
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.071px; /* 143.365% */
 }
