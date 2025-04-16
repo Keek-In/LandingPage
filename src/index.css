@@ -154,3 +154,13 @@
   line-height: 150%; /* 24px */
   letter-spacing: -0.32px;
 }
+
+.heading-h2 {
+  color: #101828;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}

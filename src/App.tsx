@@ -1,15 +1,37 @@
+// src/App.tsx
+
 import Navbar from "./components/Navbar";
-//import Hero from "./components/Hero"; // Import the Hero section component
-import Footer from "./components/Footer"; 
+import Footer from "./components/Footer";
+import Layout from "./components/Layout"; // Import Layout component
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import routing
+
+// Import the pages for navigation
+import PrivacyPolicy from "./pages/PrivacyPolicy";// Assuming you want to navigate to Privacy Policy
+import TermsandConditions from "./pages/TermsandConditions";
+import GrievanceRedressalPolicy from "./pages/GrievanceRedressalPolicy";
+
+// Add other pages if needed like Pricing, About, etc.
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#ffffff]"> {/* Set background here to match gradient */}
-      <Navbar />
-      {/* <Hero /> */}
-      
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-[#ffffff] flex justify-center">
+        <Layout>
+          <Navbar />
+          
+          {/* Define the routes inside Layout */}
+          <Routes>
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsandConditions />} />
+            <Route path="/grievance" element={<GrievanceRedressalPolicy />} />
+            
+            {/* Add more routes as necessary */}
+          </Routes>
+          
+          <Footer />
+        </Layout>
+      </div>
+    </Router>
   );
 }
 
