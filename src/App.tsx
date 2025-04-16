@@ -3,6 +3,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout"; // Import Layout component
+import CallToAction from "./components/CallToAction"; // Import CallToAction component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import routing
 
 // Import the pages for navigation
@@ -27,7 +28,8 @@ function App() {
             
             {/* Add more routes as necessary */}
           </Routes>
-          
+
+          <CallToAction />
           <Footer />
         </Layout>
       </div>

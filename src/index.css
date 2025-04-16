@@ -164,3 +164,83 @@
   line-height: 44px; /* 122.222% */
   letter-spacing: -0.72px;
 }
+
+.call-to-action-container {
+  width: 1440px;
+  height: 570px;
+  padding-top: 120px;
+  padding-left: 120px;
+  background: var(--Secondary-700, #0D121F);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-now-text {
+  color: #1A71F6;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+}
+
+.journey-text {
+  margin-top: 12px;
+  color: #FFF;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 60px */
+  letter-spacing: -1.2px;
+}
+
+
+.brand-text {
+  margin-top: 24px;
+  color: #596780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+}
+
+.demo-button {
+  height: 52px;
+  width: 187px;
+  margin-top: 24px;
+  padding: 10px 24px;
+  border-radius: 30px;
+  background: #1A71F6;
+  color: #FFF;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.call-to-action-icon {
+  width: 708px; /* Adjust as needed */
+  height: 450px; /* Adjust as needed */
+  object-fit: contain; /* Ensures that the SVG maintains its aspect ratio */
+}
+
+.callimg-2{
+  width: 265px;
+  height: 455px;
+  position: absolute;
+  right: 350px;
+  bottom: -15px;
+  border-radius: 7.79px;
+  z-index: 0;
+}

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full h-[580px] pt-[120px] pl-[120px]">
+    <footer className="w-full h-[580px] pt-[120px] pl-[120px] z-[1]">
       <div className="flex">
         <div className="footer-text-group">
           <p className="footer-keek-text">KEEK</p>

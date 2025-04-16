@@ -11,7 +11,7 @@ const links = [
   },
   {
     label: 'Grievance Redressal Policy',
-    to: '/grievance-redressal-policy',
+    to: '/grievance',
     active: true,
   },
 ];
