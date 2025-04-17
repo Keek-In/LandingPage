@@ -69,7 +69,10 @@ const GetDemo: React.FC = () => {
                 <input
                   type="checkbox"
                   checked={brandChecked}
-                  onChange={() => setBrandChecked(!brandChecked)}
+                  onChange={() => {
+                    setBrandChecked(true);
+                    setInfluencerChecked(false);
+                  }}
                   className="form-checkbox"
                 />
                 <label className="checkbox-label">Brand</label>
@@ -78,7 +81,10 @@ const GetDemo: React.FC = () => {
                 <input
                   type="checkbox"
                   checked={influencerChecked}
-                  onChange={() => setInfluencerChecked(!influencerChecked)}
+                  onChange={() => {
+                    setInfluencerChecked(true);
+                    setBrandChecked(false);
+                  }}
                   className="form-checkbox"
                 />
                 <label className="checkbox-label">Influencer</label>
