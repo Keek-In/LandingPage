@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import GetDemo from "../pages/GetDemo"; // Import the GetDemo form component
 
 const Navbar: React.FC = () => {
+  // State to control the popup visibility
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+
+  // Function to toggle the popup visibility
+  const togglePopup = () => {
+    setIsPopupVisible(!isPopupVisible);
+  };
+
   return (
     <nav className="w-full flex items-center justify-between py-6 px-6 lg:px-20 bg-[#0D121F] shadow-custom">
       {/* Logo */}
@@ -9,10 +18,18 @@ const Navbar: React.FC = () => {
 
       {/* Nav Links */}
       <ul className="hidden md:flex gap-10 text-[15px] text-white font-medium">
-        <li className="hover:text-gray-300 cursor-pointer font-bold">Brands</li>
-        <li className="hover:text-gray-300 cursor-pointer">Creators</li>
-        <li className="hover:text-gray-300 cursor-pointer">About Us</li>
-        <li className="hover:text-gray-300 cursor-pointer">Contact Us</li>
+        <li className="hover:text-gray-300 cursor-pointer font-bold">
+          <Link to="/brands">Brands</Link>
+        </li>
+        <li className="hover:text-gray-300 cursor-pointer">
+          <Link to="/creators">Creators</Link>
+        </li>
+        <li className="hover:text-gray-300 cursor-pointer">
+          <Link to="/about-us">About Us</Link>
+        </li>
+        <li className="hover:text-gray-300 cursor-pointer">
+          <Link to="/contact-us">Contact Us</Link>
+        </li>
       </ul>
 
       {/* Right Side Buttons */}
@@ -20,12 +37,29 @@ const Navbar: React.FC = () => {
         <button className="text-sm text-white hover:text-gray-300 font-medium">
           Login
         </button>
-        <Link to="/get-demo">
-          <button className="bg-[#1A71F6] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition">
-            Get Demo
-          </button>
-        </Link>
+        <button
+          className="bg-[#1A71F6] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition"
+          onClick={togglePopup}
+        >
+          Get Demo
+        </button>
       </div>
+
+      {/* Popup Modal */}
+      {isPopupVisible && (
+        <div className="popup-overlay">
+          <div className="popup-container">
+            <button
+              className="close-popup-btn"
+              onClick={togglePopup}
+            >
+              &times; {/* Close icon */}
+            </button>
+            {/* GetDemo form component */}
+            <GetDemo />
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

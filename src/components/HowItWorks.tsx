@@ -28,7 +28,7 @@ const HowItWorks: React.FC = () => {
               fill="none"
               className="absolute left-[55px] bottom-[45px]"
             >
-              <path d="M1 0L1 162" stroke="#E7DEFE" strokeWidth="2" strokeDasharray="8 8" />
+              <path d="M1 0L1 162" stroke="#FFFFFF" strokeWidth="2" strokeDasharray="8 8" />
             </svg>
 
             {/* SVG and Text for "Sign Up as a Brand" */}

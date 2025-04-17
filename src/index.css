@@ -350,3 +350,89 @@ button span {
   line-height: 30px; /* 150% */
   letter-spacing: -0.4px;
 }
+
+.about-heading-wrapper {
+  width: 1440px;
+  max-width: 1440px;
+  height: 360.71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  color: #040404;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63px;
+  margin-top: 60px;
+}
+
+.about-subtitle {
+  color: #1A202C;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-top: 32px;
+}
+
+.about-manage-text {
+  color: #040404;
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.about-keek-text {
+  color: #1A202C;
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+/* Popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup container */
+.popup-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 650px; /* Adjust width as per your requirement */
+  max-width: 90%;
+  position: relative;
+}
+
+/* Close button */
+.close-popup-btn {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

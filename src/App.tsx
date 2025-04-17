@@ -12,6 +12,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";// Assuming you want to naviga
 import TermsandConditions from "./pages/TermsandConditions";
 import GrievanceRedressalPolicy from "./pages/GrievanceRedressalPolicy";
 import GetDemo from "./pages/GetDemo";
+import AboutUs from "./pages/AboutUs";
 
 // Add other pages if needed like Pricing, About, etc.
 
@@ -28,6 +29,8 @@ function App() {
             <Route path="/terms" element={<TermsandConditions />} />
             <Route path="/grievance" element={<GrievanceRedressalPolicy />} />
             <Route path="/get-demo" element={<GetDemo />} />
+            <Route path="/about-us" element={<AboutUs />} />
+
             
             {/* Add more routes as necessary */}
           </Routes>
