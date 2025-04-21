@@ -30,6 +30,10 @@ const Navbar: React.FC = () => {
         <li className="hover:text-gray-300 cursor-pointer">
         <Link to="/get-demo">Contact Us</Link>
         </li>
+        <li className="hover:text-gray-300 cursor-pointer">
+        <Link to="/pricing">Pricing</Link>
+        </li>
+
       </ul>
 
       {/* Right Side Buttons */}

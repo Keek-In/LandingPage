@@ -13,6 +13,9 @@ import TermsandConditions from "./pages/TermsandConditions";
 import GrievanceRedressalPolicy from "./pages/GrievanceRedressalPolicy";
 import GetDemo from "./pages/GetDemo";
 import AboutUs from "./pages/AboutUs";
+import Testimonials from "./components/Testimonials";
+import Benefits from "./components/Benefits";
+
 
 // Add other pages if needed like Pricing, About, etc.
 
@@ -34,7 +37,9 @@ function App() {
             
             {/* Add more routes as necessary */}
           </Routes>
+          <Benefits />
           <HowItWorks />
+          <Testimonials />
           <CallToAction />
           <Footer />
         </Layout>
