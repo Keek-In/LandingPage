@@ -13,8 +13,8 @@ const Footer = () => {
           <ul className="footer-list">
             <li className="footer-list-heading">Company</li>
             <li className="footer-list-item"><a href="/pricing">Pricing</a></li>
-            <li className="footer-list-item"><a href="/about">About Us</a></li>
-            <li className="footer-list-item"><a href="/contact">Contact Us</a></li>
+            <li className="footer-list-item"><a href="/about-us">About Us</a></li>
+            <li className="footer-list-item"><a href="/get-demo">Contact Us</a></li>
           </ul>
         </div>
 
