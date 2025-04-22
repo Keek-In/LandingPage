@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+.navbar-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+
 .footer-text-group {
   display: flex;
   flex-direction: column;

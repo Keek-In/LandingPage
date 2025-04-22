@@ -15,6 +15,7 @@ import GetDemo from "./pages/GetDemo";
 import AboutUs from "./pages/AboutUs";
 import Testimonials from "./components/Testimonials";
 import Benefits from "./components/Benefits";
+import Pricing from "./pages/Pricing"; // Import Pricing page
 
 
 // Add other pages if needed like Pricing, About, etc.
@@ -33,6 +34,7 @@ function App() {
             <Route path="/grievance" element={<GrievanceRedressalPolicy />} />
             <Route path="/get-demo" element={<GetDemo />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/pricing" element={<Pricing />} /> {/* Add Pricing route */}
 
             
             {/* Add more routes as necessary */}

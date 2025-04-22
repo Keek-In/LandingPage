@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full flex items-center justify-between py-6 px-6 lg:px-20 bg-[#0D121F] shadow-custom">
+      <nav className="w-full flex items-center justify-between py-6 px-6 lg:px-20 bg-[#0D121F] shadow-custom navbar-border">
       {/* Logo */}
       <div className="text-[20px] font-bold text-white">KEEK</div>
 
