@@ -15,7 +15,7 @@ const GetDemo: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <div className="w-[659px]  bg-white p-[41.81px] rounded-lg shadow-md">
+      <div className="w-full  bg-white p-[41.81px] rounded-lg shadow-md">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
@@ -23,7 +23,9 @@ const GetDemo: React.FC = () => {
               <img src={form1} alt="form1" className="h-[30px]" />
               <span className="growth-text">KEEK</span>
             </div>
-            <span className="contact-text">You can reach us anytime via xyz@keek.in</span>
+            <span className="contact-text">
+              You can reach us anytime via xyz@keek.in
+            </span>
           </div>
 
           {/* Name field */}
@@ -37,7 +39,10 @@ const GetDemo: React.FC = () => {
           </div>
 
           {/* Email field */}
-          <div className="flex flex-col" style={{ gap: "5.02px", marginTop: "20.7px" }}>
+          <div
+            className="flex flex-col"
+            style={{ gap: "5.02px", marginTop: "20.7px" }}
+          >
             <label className="label-text">Email</label>
             <input
               type="email"
@@ -47,7 +52,10 @@ const GetDemo: React.FC = () => {
           </div>
 
           {/* Phone Number field */}
-          <div className="flex flex-col" style={{ gap: "5.02px", marginTop: "20.7px" }}>
+          <div
+            className="flex flex-col"
+            style={{ gap: "5.02px", marginTop: "20.7px" }}
+          >
             <label className="label-text">Phone Number</label>
             <PhoneInput
               international
@@ -97,7 +105,10 @@ const GetDemo: React.FC = () => {
             <span className="question-text">How can we help?</span>
 
             {/* Form field for message */}
-            <div className="flex flex-col" style={{ gap: "5.02px", marginTop: "5.02px" }}>
+            <div
+              className="flex flex-col"
+              style={{ gap: "5.02px", marginTop: "5.02px" }}
+            >
               <textarea
                 placeholder="Tell us a little about the project..."
                 className="w-[575.37px] h-[58.266px] p-4 border rounded-lg border-gray-300"

@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-      <nav className="w-full flex items-center justify-between py-6 px-6 lg:px-20 bg-[#0D121F] shadow-custom navbar-border">
+    <nav className="fixed top-0 w-full flex items-center justify-between py-6 px-6 lg:px-20 bg-[#0D121F] shadow-custom navbar-border z-1000">
       {/* Logo */}
       <div className="text-[20px] font-bold text-white">KEEK</div>
 
@@ -28,12 +28,11 @@ const Navbar: React.FC = () => {
           <Link to="/about-us">About Us</Link>
         </li>
         <li className="hover:text-gray-300 cursor-pointer">
-        <Link to="/get-demo">Contact Us</Link>
+          <Link to="/get-demo">Contact Us</Link>
         </li>
         <li className="hover:text-gray-300 cursor-pointer">
-        <Link to="/pricing">Pricing</Link>
+          <Link to="/pricing">Pricing</Link>
         </li>
-
       </ul>
 
       {/* Right Side Buttons */}
@@ -53,10 +52,7 @@ const Navbar: React.FC = () => {
       {isPopupVisible && (
         <div className="popup-overlay">
           <div className="popup-container">
-            <button
-              className="close-popup-btn"
-              onClick={togglePopup}
-            >
+            <button className="close-popup-btn" onClick={togglePopup}>
               &times; {/* Close icon */}
             </button>
             {/* GetDemo form component */}

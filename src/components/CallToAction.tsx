@@ -11,14 +11,16 @@ const CallToAction: React.FC = () => {
   };
 
   return (
-    <div className="call-to-action-container flex justify-between items-center relative">
+    <div className="w-full call-to-action-container flex justify-between items-center relative">
       <div className="text-container">
         <p className="download-now-text">DOWNLOAD NOW!</p>
         <p className="journey-text">
-          Start Your Social earning <br />Journey with the knowns.
+          Start Your Social earning <br />
+          Journey with the knowns.
         </p>
         <p className="brand-text">
-          Are you ready to grow your brand & identity?<br /> Get KEEK.in now!
+          Are you ready to grow your brand & identity?
+          <br /> Get KEEK.in now!
         </p>
         <button className="demo-button" onClick={togglePopup}>
           Get a Free Demo
@@ -33,11 +35,7 @@ const CallToAction: React.FC = () => {
       />
 
       {/* Second SVG */}
-      <img
-        src={callimg2Svg}
-        alt="Call Image 2"
-        className="callimg-2"
-      />
+      <img src={callimg2Svg} alt="Call Image 2" className="callimg-2" />
 
       {/* Popup Modal */}
       {isPopupVisible && (
