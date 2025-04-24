@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       {/* Nav Links */}
       <ul className="hidden md:flex gap-10 text-[15px] text-white font-medium">
         <li className="hover:text-gray-300 cursor-pointer font-bold">
-          <Link to="/brands">Brands</Link>
+          <Link to="/">Brands</Link>
         </li>
         <li className="hover:text-gray-300 cursor-pointer">
           <Link to="/creators">Creators</Link>
